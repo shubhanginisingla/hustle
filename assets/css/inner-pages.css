@@ -1,0 +1,105 @@
+/**Inner Banner**/
+.inner-banner {position:relative; padding:140px 0 100px; background:#060708; margin:0 0 40px; display:flex; align-items:center; justify-content:center; overflow:hidden; margin-bottom:30px;}
+.banner_img {position:absolute; min-width: 40%; top:0; right:0; padding:15px 0; height:calc(100% - 20px);}
+.banner_img img {width:100%;}
+@media (min-width:1440px){
+	.inner-banner {padding:140px 0 100px; position:relative; max-width:1920px; margin:0 auto 40px;} 
+	.inner-banner {min-height:700px;}
+	.banner_img {top:50%; transform:translateY(-45%); -webkit-transform:translateY(-45%);}
+}
+@media (max-width:767px){
+.inner-banner {padding:100px 0 50px; margin:0 0 20px;}
+.banner_img {height:100%;}
+.banner_img img {height:100%;}
+}
+
+/**Filter**/
+.filter_wrap {border-bottom:1px solid #1E1D22; padding-bottom:20px; overflow:hidden; margin-bottom:20px;}
+.filter_wrap label {min-width:70px;}
+.filter_sec .form-control {min-height:48px; max-width:170px; min-width:170px; border:1px solid #2B2B2E; background-color:#060708; font-size:14px;}
+.filter_wrap .form-group {margin:0 10px 10px;}
+.seach_field {max-width:170px;}
+.seach_field .form-group {margin-left:0!important; margin-right:0!important;}
+
+@media (max-width:991px){
+.filter_wrap label, .filter_wrap .form-group {min-width:50%; margin:0 0 7px; padding:0 5px;}
+.filter_wrap .form-control{max-width:100%;}
+.seach_field {max-width:100%;}
+}
+
+@media (max-width:767px){
+.filter_wrap label, .filter_wrap .form-group {min-width:100%; max-width:100%; padding:0;}
+}
+
+/** Artist Detail **/
+.about_artist {padding:0 1.5rem 25px;}
+.about_artist p {font-size:14px;}
+.cl_top {position:absolute; top:0px; width:100%; padding:15px;}
+.con_icom {background:#CF1B1B; border-radius:6px; width:37px; height:37px; line-height:2.1;}
+.bl-padding {padding:25px 1.5rem;}
+.g_block figure img{border-radius:6px;}
+.s_block {margin:0;}
+.s_block li {position:relative; padding-left:25px; margin-bottom:10px;}
+.s_block li:last-child {margin-bottom:0;}
+.s_block li:before {
+	content:'';
+	background:#CF1B1B;
+	width:10px;
+	height:10px;
+	border-radius:10px;
+	position:absolute;
+	top:7px;
+	left:0;
+}
+.s_list h6 {font-weight:400; margin:0;}
+.s_block strong {color:#fff; font-size:20px; font-weight:600; margin-left:7px;}
+
+.appoint-date {color:#fff; margin:5px 0 0; display: block;}
+
+@media (max-width:991px){
+.s_block strong {font-size:18px;}
+}
+
+@media (max-width:767px){
+.s_block strong {font-size:16px;}
+}
+
+/** **/
+.ma_col ul {display:flex; flex-wrap:wrap; margin:0 -15px;}
+.ma_col ul li {position:relative; font-size:14px; text-align:center; flex-grow:1; padding:0 15px 20px;}
+.ma_col ul li:nth-child(3n - 1) {
+	 
+}
+.ma_col ul li input[type=radio] {position:absolute; top:0; left:0; opacity:0; height:100%; width:100%; cursor:pointer; z-index:1;}
+.ma_col ul li span {display:block; background:#3E3D44; color:#fff; font-size:14px; padding:10px; border-radius:6px; min-height:56px; display:flex; align-items:center; justify-content:center;}
+.ma_col ul li input[type="radio"]:checked +  span {
+	background:#CF1B1B;
+}
+.payment_modal p {font-size:16px;}
+
+/** Appointment Listing **/
+.appoint_col figure {margin:0;}
+.appoint_col figure img{max-width:160px; min-width:160px;}
+.appointment_listing li{border-radius:20px; background:#030405; padding:20px; margin-bottom:20px;}
+.appoint_col figure img {border-radius:10px;}
+.appointment_summary {margin-left:25px;}
+.appointment_summary h5 {font-weight:500;}
+.loc_by span {margin-right:20px; height: 100%;}
+.loc_by span:last-child {margin-right:0;}
+.loc_by em {margin-right:7px;}
+.loc_by em img {max-height:22px;}
+.tatto_price {text-align:right;}
+.tatto_price span {display:block; margin-bottom:20px;}
+.tatto_price span strong {color:#fff;}
+
+@media (max-width:991px){
+.ma_col ul {margin:0 -10px;}	
+.ma_col ul li {flex-basis: 50%; padding:0 10px 15px;}
+}
+
+@media (max-width:767px){
+#cal {margin-bottom: 15px;}
+}
+
+/** Lightbox Gallery **/
+.ekko-lightbox .modal-body {padding:0;}

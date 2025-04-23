@@ -1,0 +1,5 @@
+.notification_list {background:#060708; border-radius:6px;}
+.noti_list {padding:1rem; border-bottom:1px solid #373838;}
+.noti_list:last-child {border-bottom:0;}
+.noti_list .img_cont {margin-right:15px;}
+.noti_list p{color:#fff;}

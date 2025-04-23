@@ -1,0 +1,30 @@
+.sidebar_tabs .nav li {width:100%; margin:0 0 5px;}
+.sidebar_tabs .nav li a {background:transparent; color:#fff; font-size:16px; line-height:1.1; display:block; padding:1rem; border-radius:7px 0 0 7px;}
+.sidebar_tabs .nav li a.active {background:#060708;}
+.sidebar_tabs .nav li em {min-width:32px; display:inline-block;}
+.sidebar_tabs .nav li em img{max-height:22px; }
+.form_setting {background:#060708; padding:30px; border-radius:6px;}
+
+@media (min-width:1441px){
+.sidebar_tabs ul li a { font-size:20px;}
+.sidebar_tabs ul li em img{max-height:24px; }
+.form_setting {padding:40px;}
+}
+@media (max-width:767px){
+	.sidebar_tabs .nav {flex-wrap: nowrap; overflow-x: auto; margin-bottom:10px;}
+	.sidebar_tabs .nav li {text-align:center;}
+	.sidebar_tabs .nav li a {border-radius:5px; font-size:15px; min-height:90px; display:flex; align-items:center; justify-content:center; flex-direction: column;}
+	.sidebar_tabs .nav li em {margin:0 0 10px;}
+}
+
+/** Notification **/
+.border-all {border:1px solid #3B3B3B; border-radius:10px; position:relative;}
+.block-setting {padding:25px; margin-bottom:25px; height:calc(100% - 25px); background:#060708;}
+
+.appointments_lists {margin:0;}
+.app_title {padding-left: 0; position: relative; text-align: left; display: flex; justify-content: flex-start; align-items:center }
+.app_title em {margin-right:10px;}
+.app_title em img {max-height:22px;}
+.app_title h6 {color:#fff; font-size:16px; margin:0; font-weight:600;}
+
+.appointments_lists li{color:#8D8C8F; font-size:14px; padding:20px 0 0; }

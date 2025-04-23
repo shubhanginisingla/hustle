@@ -1,0 +1,60 @@
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer {background: #1A191F; padding:30px 0 0; margin-top:20px;} 
+#footer .footer-top .footer-info figure img {max-width:175px;}
+.footer-info {padding-bottom:40px; padding-right:40px;}
+.footer-info ul {margin:25px 0 0;}  
+.footer-info ul li {border-top:1px solid #302F34; padding:15px 0; font-size:16px;}
+.footer-info ul li:last-child {
+	border-bottom:1px solid #302F34; 
+}
+.footer-info ul li a, .footer-info ul li span {color:#fff;}
+.footer-info ul li a:hover {
+	color:#CF1B1B;
+}
+.footer-blog {padding-bottom:40px; padding-left: 50px;}
+.footer-blog h4 {font-weight:500;}
+.footer-blog .row {margin-top:25px;}
+.blog_des h6 {font-weight:500;}
+.blog_des p {font-size:14px; font-weight:400; margin-bottom:5px;}
+.blog_des a {color:#CF1B1B;}
+.blog_des a:hover {
+	text-decoration:underline;
+}
+#footer .footer_btm { border-top: 1px solid #302F34; padding:0 0 10px;} 
+.copyright {padding:15px 0 0;}
+.social-links {padding:15px 0 0;}
+.social-links a {display:inline-block; border:2px solid #fff; border-radius:7px; width:32px; height:32px; padding:2px; line-height:1.5; text-align:center; margin-left:5px;}
+.social-links a:first-child {
+	margin-left:0;
+}
+.social-links a img {display:inline-block;}
+.social-links a:hover {
+	border-color:#CF1B1B;
+}
+.social-links a:hover img{
+	-webkit-filter: invert(.9) sepia(100) saturate(50) hue-rotate(5deg);
+    filter: invert(.9) sepia(100) saturate(50) hue-rotate(5deg);
+}
+
+@media (min-width: 1441px) {
+.footer-info ul li {font-size:18px; padding:20px 0;}	
+}
+
+@media (max-width: 991px) {
+.footer-info {padding-right:0;}
+.footer-blog { padding-left:15px;}
+.footer-info ul li {font-size:15px;}
+}
+
+@media (max-width: 767px) {
+.blog_des h6 {margin-bottom:2px;}
+.blog_des a{font-size:14px;}
+.blog_des p {margin:0;}
+.footer-blog .row {margin-left:-7px; margin-right:-7px;}
+.footer-blog .col-9, .footer-blog .col-3 {padding-left:7px; padding-right:7px;}
+.copyright {text-align:center; font-size:14px;}
+.footer-blog {padding-bottom:20px;}
+.footer-info {padding-bottom:30px;}
+}

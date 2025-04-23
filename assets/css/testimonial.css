@@ -1,0 +1,40 @@
+/** Testimonial Section**/
+.testimonial_slider {background:#1A191F; box-shadow:0 0 10px rgba(0,0,0,.3); border-radius:20px; padding:40px 60px; position:relative;}
+.testimonial_slider:before {
+	content:'';
+	background-image:url(../img/icons/quote_lft_icon.svg);
+	background-repeat:no-repeat;
+	background-size:100%;
+	width:80px;
+	height:66px;
+	position:absolute;
+	top:15px;
+	left:15px;
+}
+.testi_content p {color:#fff;}
+.testi_content .tes_name {text-align:right; color:#CF1B1B; display:block; font-weight:600; font-size:16px;}
+
+.thumb_test {border:3px solid transparent; display: inline-block; width:90px; height:90px; border-radius:100%; overflow:hidden; position:relative; cursor:pointer;}
+.thumb_test img {object-fit:cover; width:100%; position:absolute; top:0; left:0; min-height:100%;}
+
+.testimonial_slider .owl-item.active.current .thumb_test {border:3px solid #CF1B1B; border:3px solid #CF1B1B;}
+.artist_info img {width: 24px;}
+
+@media (min-width:1440px){
+	.testi_content .tes_name {font-size:18px;}
+	.testimonial_slider { padding:50px 120px 40px;}
+}
+
+@media (max-width:991px){
+.testimonial_slider:before {
+	width:60px;
+	height:48px;
+}
+.owl-dots {display:none;}
+}
+
+@media (max-width:820px){
+	.testimonial_slider {padding: 30px;}
+	.testi_content p {margin-bottom:7px;}
+	.testi_content {margin-bottom:10px;}
+}

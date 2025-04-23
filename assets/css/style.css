@@ -1,0 +1,75 @@
+@import 'default.css';
+@import 'circle-animation.css';
+@import 'header.css';
+@import 'hero-slider.css';
+@import 'gallery.css';
+@import 'testimonial.css';
+@import 'login-signup.css';
+@import 'pic-upload.css';
+@import 'setting.css';
+@import 'switch-toggle.css';
+@import 'profile.css';
+@import 'inner-pages.css';
+@import 'modal.css';
+@import 'radio.css';
+@import 'custom-select.css';
+@import 'chats.css';
+@import 'notification.css';
+@import 'ui-date-picker.css';
+@import 'footer.css';
+
+/** Title **/
+.title_h2 {text-align:center; margin:0 0 25px;}
+.title_h2 h2{text-align:center; color:#CF1B1B; font-weight:600; font-size:36px; margin:0 0 7px; text-transform:capitalize;}
+.title_h2 p {font-weight:300; max-width:60%; margin:0 auto;}
+
+/** Welcome Hustle Section**/
+.wel_summary {max-width:80%;}
+.sub_title span {display:block; font-size:24px; font-weight:400;}
+.sub_title h2 em {color:#CF1B1B; font-style:normal;}
+.hus-box {margin:20px 0 0;}
+.hus-box h4 {color:#fff; margin:15px 0 7px; line-height:1;}
+
+@media (min-width:1441px) {
+.title_h2 h2{font-size:40px;}
+.wel_summary {max-width:63%;}
+.sub_title h3{font-size:26px;}
+}
+
+/** Top Artist **/
+.top_artist .col-sm-6 {margin:25px 0 0;}
+.top_artist figure {border-radius:14px; overflow:hidden;}
+.top_artist figure img{width:100%; transition:all .5s ease-in-out; -webkit-transition: all .5s ease-in-out;}
+.top_artist .col-sm-6:hover figure img {transform:scale(1.2); -webkit-transform: scale(1.1);}
+.artist_info {margin:10px 0;}
+.artist_info h5 {font-weight:600;}
+.artist_info span {display:block; color:#8B8B8B; font-weight:300; font-size:14px; margin:0 0 5px;}
+.artist_info span em img {width:12px;}
+.star_rated li {display:inline-block; margin-left:2px;}
+.star_rated li:first-child {margin-left:0px;}
+.star_rated li img {width:14px;}
+.welcome_ink h5 img {width:26px;}
+
+.inner_page {padding-bottom:30px; min-height:30vh;}
+
+@media (min-width:1280px){
+.inner_page {min-height:calc(100vh - 570px - 80px);}
+}
+
+@media (max-width:991px) {
+.wel_summary {max-width:100%;}
+}
+
+@media (max-width:820px) {
+.title_h2 h2{font-size:30px;}
+}
+
+@media (max-width:767px) {
+.wel_summary {text-align:center; padding:30px 0 0;}
+.welcome-box {position:absolute; opacity:.4!important;}
+.title_h2 {margin-bottom:15px;}
+.title_h2 p {max-width:80%;}
+.inner_page {padding-bottom:20px;}
+.artist_info em img {max-width: 21px;}
+.top_artist .col-sm-6 {margin:15px 0 0;}
+}

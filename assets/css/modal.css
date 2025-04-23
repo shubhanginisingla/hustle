@@ -1,0 +1,10 @@
+.pointer {cursor:pointer;}
+@media (min-width: 576px) {
+	.modal-dialog {max-width:600px;}
+}
+.modal-title h4 {font-size:30px; font-weight:600; margin-top:10px;}
+/**payment Modal **/
+.modal-content {background:#050505; border-radius:12px;}
+.payment_modal .modal-md .modal-body {padding:40px;}
+.payment_modal li {display:flex; justify-content:space-between; margin:0 0 15px;}
+
